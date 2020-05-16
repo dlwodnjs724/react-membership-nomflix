@@ -13,7 +13,7 @@ api.interceptors.request.use((config) => {
 
 export const moviesApi = {
   nowPlaying: () => api.get('movie/now_playing'),
-  upComing: () => api.get('movie/upcoming'),
+  upcoming: () => api.get('movie/upcoming'),
   popular: () => api.get('movie/popular'),
   movieDetail: (id) =>
     api.get(`moive/${id}`, {
