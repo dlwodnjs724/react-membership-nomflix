@@ -2,15 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Section from 'Components/Section';
+import Loader from 'Components/Loader';
 import Message from 'Components/Message';
 import Poster from 'Components/Poster';
 
 const Container = styled.div`
-  padding: 0 20px;
+  padding: 20px;
 `;
 
 const HomePresenter = ({ nowPlaying, upcoming, popular, loading, error }) =>
-  loading ? null : (
+  loading ? (
+    <Loader />
+  ) : (
     <Container>
       {nowPlaying && nowPlaying.length > 0 && (
         <Section title="Now Playing">
