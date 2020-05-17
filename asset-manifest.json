@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/react_membership_nomflix/static/js/main.59dc687b.chunk.js",
+    "main.js.map": "/react_membership_nomflix/static/js/main.59dc687b.chunk.js.map",
+    "runtime-main.js": "/react_membership_nomflix/static/js/runtime-main.b9b984b0.js",
+    "runtime-main.js.map": "/react_membership_nomflix/static/js/runtime-main.b9b984b0.js.map",
+    "static/js/2.72e0c613.chunk.js": "/react_membership_nomflix/static/js/2.72e0c613.chunk.js",
+    "static/js/2.72e0c613.chunk.js.map": "/react_membership_nomflix/static/js/2.72e0c613.chunk.js.map",
+    "index.html": "/react_membership_nomflix/index.html",
+    "precache-manifest.d7ae861cb376ac3119386412c2a8f8ce.js": "/react_membership_nomflix/precache-manifest.d7ae861cb376ac3119386412c2a8f8ce.js",
+    "service-worker.js": "/react_membership_nomflix/service-worker.js",
+    "static/js/2.72e0c613.chunk.js.LICENSE.txt": "/react_membership_nomflix/static/js/2.72e0c613.chunk.js.LICENSE.txt",
+    "static/media/noPosterSmall.png": "/react_membership_nomflix/static/media/noPosterSmall.87a0eb6a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9b984b0.js",
+    "static/js/2.72e0c613.chunk.js",
+    "static/js/main.59dc687b.chunk.js"
+  ]
+}
